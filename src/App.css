@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.form {
+  padding: 20px;
+  box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+  height: 100%;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+}
+
+input.inputTask {
+  width: 80%;
+  border-radius: 0px;
+}
+
+.btn-primary {
+  width: 20%;
+  border-radius: 0px !important;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border: 1px solid #5c025c;
+}
+
+button.btn-primary {
+  background-color: #5c025c;
+  border: none;
+}
+
+.tab-content {
+  border: 1px solid #dee2e6;
+  border-top: none;
+  min-height: 300px;
+}
+
+.nav-tabs .nav-link {
+  width: 50%;
+  color: #495057;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs a.nav-link.active {
+  color: #5c025c;
+}
+
+.task {
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  margin: 20px 10px;
+}
+
+.taskDone {
+  text-decoration: line-through;
+}
