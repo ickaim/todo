@@ -15,15 +15,17 @@ export default class TodoForm extends React.Component {
 
     handleSubmit = (event) => {
         event.preventDefault();
-        this.props.onSubmit({
-            id: this.state.id + 1,
-            text: this.state.text,
-            complete: false
-        })
-        this.setState({
-            id: this.state.id + 1,
-            text: ""
-        })
+        if (this.state.text !== "") {
+            this.props.onSubmit({
+                id: this.state.id + 1,
+                text: this.state.text,
+                complete: false
+            })
+            this.setState({
+                id: this.state.id + 1,
+                text: ""
+            })
+        }
     }
 
     render() {

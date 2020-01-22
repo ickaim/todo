@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7b90b7d-3d2e-414f-87ef-41cd37065b62" name="Default Changelist" comment="" />
+    <list default="true" id="d7b90b7d-3d2e-414f-87ef-41cd37065b62" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/task.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/task.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/todoForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todoForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/todoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todoList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,11 +60,23 @@
       <workItem from="1579548007326" duration="2963000" />
       <workItem from="1579630194778" duration="6113000" />
       <workItem from="1579710745309" duration="5988000" />
+      <workItem from="1579717498896" duration="2245000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

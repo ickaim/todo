@@ -8,6 +8,7 @@
   height: 100%;
   margin-top: 20vh;
   margin-bottom: 20vh;
+  background-color: white;
 }
 
 input.inputTask {
@@ -20,7 +21,7 @@ input.inputTask {
   border-radius: 0px !important;
 }
 
-.form-control:focus {
+input.form-control:focus {
   box-shadow: none;
   border: 1px solid #5c025c;
 }
@@ -30,10 +31,18 @@ button.btn-primary {
   border: none;
 }
 
+button.btn-primary:focus {
+  background-color: #131278;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
 .tab-content {
   border: 1px solid #dee2e6;
   border-top: none;
   min-height: 300px;
+  padding-top: 10px;
 }
 
 .nav-tabs .nav-link {
@@ -55,4 +64,22 @@ button.btn-primary {
 
 .taskDone {
   text-decoration: line-through;
+}
+
+button.close {
+  position: absolute;
+  left: calc(100% - 60px);
+  height: 25px;
+  width: 25px;
+}
+
+button.close:hover {
+  background-color: #5c025c;
+  color: white;
+  opacity: 1;
+}
+
+button.close > div {
+  font-size: 20px;
+  height: 100%;
 }

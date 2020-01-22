@@ -35,6 +35,12 @@ export default class TodoList extends React.Component {
         )
     }
 
+    handleDeleteTask(id) {
+        this.setState({
+            tasks: this.state.tasks.filter(task => task.id !== id)
+        });
+    }
+
     render() {
         return (
             <Row className="justify-content-md-center ">
@@ -47,6 +53,7 @@ export default class TodoList extends React.Component {
                                     if(task.complete === false)
                                     return <Task
                                         toggleComplete={() => this.toggleComplete(task.id)}
+                                        onDelete={() => this.handleDeleteTask(task.id)}
                                         key={task.id}
                                         task={task} />
                                 })}
@@ -57,6 +64,7 @@ export default class TodoList extends React.Component {
                                 if(task.complete === true)
                                     return <Task
                                         toggleComplete={() => this.toggleComplete(task.id)}
+                                        onDelete={() => this.handleDeleteTask(task.id)}
                                         key={task.id}
                                         task={task} />
                             })}
