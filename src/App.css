@@ -62,6 +62,10 @@ button.btn-primary:focus {
   margin: 20px 10px;
 }
 
+.task > div {
+  width: 90%;
+}
+
 .taskDone {
   text-decoration: line-through;
 }
